@@ -8,6 +8,7 @@ let addWindow;
 app.on("ready", () => {
   mainWindow = new BrowserWindow({});
   mainWindow.loadFile("./main.html");
+  mainWindow.on("closed", () => app.quit());
 
   const mainMenu = Menu.buildFromTemplate(menuTemplate);
   Menu.setApplicationMenu(mainMenu);
