@@ -1,0 +1,14 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JWSenteney/electronreactcourse-todos.git",
+  "author": "Jacob Senteney <jwsenteney@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "dependencies": {
+    "electron": "^4.1.4"
+  }
+}
